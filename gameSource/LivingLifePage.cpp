@@ -12042,7 +12042,7 @@ void LivingLifePage::step() {
                     // only if marker starts on birth screen
                     
                     // use distance squared here, no need for sqrt
-                    double closestDist = 5 * 5;
+                    double closestDist = 100 * 100;
 
                     int mapCenterY = y + sizeY / 2;
                     int mapCenterX = x + sizeX / 2;
